@@ -1,0 +1,59 @@
+<!--                                                      CURSO EM VÍDEO GUSTAVO GUANABARA - AULA06-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;/*comentário em css*/
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color:black ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá de novo mundo...</h1><!--Comentário em html-->
+    <p>De novo essa merda dessa maldição</p>
+    <script>
+        //var n1 = window.prompt('Digite um número: ') //pergunta guardando em 'nome'...
+        
+        //Conversão de tipo string pra úmero:
+
+        //Number.parseInt(n)
+        //Number.parsefloat(n)
+        //Number(n)  --> O JS se vira pra escolher
+
+        //Conversão de numero pra string:
+
+        //String(n)
+        //ntoString()
+
+
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //converte pra inteiro...
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))  //converte em decimais (flutuantes)...
+        var s = n1 + n2
+        alert('A soma entre os números é: ' + s + '!')// + é contatenação.
+
+        // template string:        
+        //entre crase:
+        alert(`A soma entre os númeris ${n1} e ${n2} é: ${s}`)
+
+        
+
+       
+
+
+
+        alert
+    </script>
+    
+</body>
+</html>

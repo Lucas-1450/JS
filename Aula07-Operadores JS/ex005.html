@@ -1,0 +1,120 @@
+<!--                                                         AULA 07 - CURSOEMVIDEO JAVA-SCRIPT                                              -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //Operadores da linguagem
+        //Aritméticos - Atribuição - Relacional - Lógicos - Ternário
+
+    //Aritmíticos: +(Adição) -(Subtração) *(Multiplicação) /(Divisão) %(Resto da divisão) **(Esponencial)   ()    
+    // <<-------------------<<------------|----------------------<<----------------------|-------<<------|--<<--| = Precedência
+    //               +            =       |        *            /          %                   
+    //Atribução: = (recebe)  
+    var a = 5 + 3
+    var b = a % 5
+    var c = 5 * b ** 2 //primeiro o esponencial       Incremental    =>    // var n = 3 | n = n + 4 -->> n += 4 -->> n ++ 4
+    var d = 10 - a / 2
+    var e = 6 * 2 / d
+    var f = b % e + 4 / e //entre os que são do mesmo nível o primeiro é calculado primeiro
+    
+    //Relacionais:  > Maior que | < Menor que | >+ Maior ou igual a que |  <= Menor ou igual a que | == Igual (quantidade, pois "=" é "Recebe") | != Diferente
+
+    5 > 2
+    true
+    7 < 4
+    false
+    8 >= 8
+    true
+    9<= 7
+    false
+    5 == 5
+    true
+    4 != 4
+    false
+
+a = 8
+b = 15
+
+a > b
+false
+b > a
+true
+b >= a
+true
+b == a
+false
+5 == '5'
+true
+5 === '5' // Identico
+false
+
+//Lógicos:
+
+// ! Negação
+
+// && conjunção 
+
+// || Dijunção (Ou)
+
+// true && true = true
+// true && false = false
+// false && true = false
+// false && false = false
+
+// true || true = true
+// true || false = true
+// false || true = true
+// false || falase = false
+
+
+
+//Ternários:  ? :     Pergunta  ?  True  :  False
+
+media = 5.5
+5.5
+media > 7 ? 'Aprovado' : 'Reprovado'
+'Reprovado'
+media += 3
+8.5
+media > 7 ? 'Aprovado' : 'Reprovado'
+'Aprovado'
+
+    
+        
+var x = 8
+
+var res = x % 2 == 0 ? 5 : 9
+
+x
+8
+res
+5
+
+
+var idade = 19
+
+var r = idade >= 18 ? 'Maior' : 'Menor'
+
+idade
+
+19
+
+r
+
+'Maior'
+
+
+
+
+    </script>
+    
+</body>
+</html>
